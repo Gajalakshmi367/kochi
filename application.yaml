@@ -1,0 +1,28 @@
+spring:
+
+  application:
+
+    name:  springbootproject1
+
+  jpa:
+
+    show-sql: true
+
+    hibernate:
+
+      ddl-auto:  update
+
+  datasource:
+
+    url:  jdbc:mysql://localhost:3306/db2
+
+    username:  root
+
+    password:  A#1deepa
+
+    driver-class-name:  com.mysql.cj.jdbc.Driver
+
+server:
+
+  port:  6060
+ 
